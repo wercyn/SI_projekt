@@ -1,7 +1,7 @@
-package utils;
+package com.dszi.utils;
 
 public class Point {
-	
+
 	private int x;
 	private int y;
 

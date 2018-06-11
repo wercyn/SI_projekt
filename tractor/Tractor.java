@@ -1,15 +1,15 @@
-package tractor;
+package com.dszi.tractor;
 
-import support.Constants;
+import com.dszi.support.Constants;
 
 public class Tractor {
-	
+
 	int waterLevel;
 	int pesticideLevel;
 	int fertilizerLevel;
 	int tractorPostionX;
 	int tractorPositionY;
-	
+
 	public Tractor() {
 		this.waterLevel = Constants.tractorWaterLevel;
 		this.pesticideLevel = Constants.tractorPesticideLevel;
@@ -17,7 +17,7 @@ public class Tractor {
 		this.tractorPostionX = 0;
 		this.tractorPositionY = 0;
 	}
-	
+
 	public int getWaterLevel() {
 		return waterLevel;
 	}

@@ -1,8 +1,8 @@
-package main;
+package com.dszi.main;
 
 import java.awt.EventQueue;
 
-import gui.MainView;
+import com.dszi.gui.MainView;
 
 public class EntryPoint {
 
